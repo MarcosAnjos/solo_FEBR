@@ -22,7 +22,7 @@
   margin-bottom: -6em
 }
 .custom-footer {
-  color: #fff;
+  color: #000;
 }
 .custom-footer h6 {
   font-size: 18px;
@@ -37,13 +37,13 @@
   padding-bottom: 0.5em;
 }
 .custom-footer li a {
-  color: #fff;
+  color: #000;
 }
 .row-social {
   background: #d9d9d9;
 }
 .custom-footer i {
-  color: #fff;
+  color: #000;
   margin-left: 10px
 
 }
