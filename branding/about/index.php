@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head id="j_idt5">
-<title>Lattes Data</title>
+<title>FEBR Data</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -43,22 +43,7 @@
 <script src="https://kit.fontawesome.com/b387d4989b.js" crossorigin="anonymous"></script>    
 </head>
 <body>
-<a href="#content" class="sr-only">Skip to main content</a>
-<div class="headerCustom" style="width: 100%; z-index: 100;">
-  <div class="container">
-  <div class="row justify-content-between">
-    <div class="col-xs-8">
-        <a href="https://www.gov.br/cnpq/pt-br" target="_blank">
-            <img src="/dvn/img/logo-cnpq-white.png" alt=""/>
-        </a>
-        <a href="/">
-            <img src="/dvn/img/logo-lattes-white.png" alt=""/>
-        </a> <a href="#"></a>
-      </div>
-    <div class="col-xs-4 offset-xs-4 text-right deposite"><a href="#"><i class="fa-solid fa-square-arrow-up-right fa-lg"></i>Deposite os seus conjuntos de dados</a></div>
-  </div>
-</div>
-</div>
+
 <nav id="dataverse-header-block">
   <div id="navbarFixed" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -116,9 +101,9 @@
     <input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:2" value="-7893747309819969496:-2444764390170307798" autocomplete="off">
   </form>
   <div style="background:#000000;" id="dataverseHeader" class="container bg-muted">
-    <div style="text-align:LEFT;background:#FFFFFF;" class="dataverseHeaderLogo"> <img src="/dvn/img/logo_lattesdata_200.png"></div>
+    <div style="text-align:LEFT;background:#FFFFFF;" class="dataverseHeaderLogo"> <img src=""></div>
     <div class="dataverseHeaderBlock">
-      <div class="dataverseHeaderCell dataverseHeaderName"> <a href="/dataverse/lattesdata" class="dataverseHeaderDataverseName" style="color:#428BCA;">
+      <div class="dataverseHeaderCell dataverseHeaderName"> <a href="/dataverse/febr" class="dataverseHeaderDataverseName" style="color:#428BCA;">
         <h1>Lattes Data</h1>
         </a></div>
     </div>
