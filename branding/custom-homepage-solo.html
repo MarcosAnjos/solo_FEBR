@@ -49,6 +49,25 @@
     width: 200px;
     /* Definir largura personalizada para o botão */
   }
+
+  .custom-btn {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #28a745;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .custom-btn:hover {
+    background-color: #218838;
+  }
 </style>
 
 <div class="jumbotron">
@@ -67,3 +86,12 @@
     onclick="window.location = '/dataverse/febr?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i
       class="glyphicon glyphicon-search"></i> Explorar</button>
 </form>
+<hr class="heavy-rule" />
+
+<div class="row-fluid mt-4">
+  <div class="col">
+    <button class="custom-btn" onClick="window.location.href='/dataverse/febr'">Explorar</button>
+  </div>
+</div>
+
+<hr class="heavy-rule" />
