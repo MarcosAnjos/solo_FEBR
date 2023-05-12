@@ -49,10 +49,6 @@
     width: 200px;
     /* Definir largura personalizada para o botão */
   }
-
-  .explore-btn {
-    background-color: #3cba54;
-  }
 </style>
 
 <div class="jumbotron">
@@ -64,10 +60,10 @@
 </div>
 
 <form class="search-form">
-  <input type="text" class="search-form input" id="inputDataverseSearch"
+  <input type="text" id="inputDataverseSearch"
     onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();"
     placeholder="Procure dados dsa sua pesquisa">
   <button id="btnDataverseSearch" type="submit"
-    onclick="window.location = '/dataverse/febr?q=' + document.getElementById('inputDataverseSearch').value;return false;"
-    class="explore-btn"><i class="glyphicon glyphicon-search"></i> Explorar</button>
+    onclick="window.location = '/dataverse/febr?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i
+      class="glyphicon glyphicon-search"></i> Explorar</button>
 </form>
