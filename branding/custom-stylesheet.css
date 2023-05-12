@@ -6,7 +6,7 @@
 }
 
 #dvfooter {
-  background: #a7afbd;
+  background: #d1d5dc;
   padding-top: 2rem;
   padding-bottom: 2em;
   margin-top: 4em;
@@ -15,7 +15,7 @@
   color: #000;
 }
 .custom-footer {
-  background: #8e8f91;
+  background: #aeafb1;
   padding-top: 2em;
   padding-bottom: 2em;
   /* margin-top: 5em; */
@@ -40,7 +40,7 @@
   color: #fff;
 }
 .row-social {
-  background: #c7b198;
+  background: #94918d;
 }
 .custom-footer i {
   color: #fff;
