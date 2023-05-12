@@ -50,23 +50,35 @@
     /* Definir largura personalizada para o botão */
   }
 
-  .custom-btn {
-    display: block;
-    width: 100%;
-    padding: 20px;
+  /* 2 BTN */
+  .database-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .database-text {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+
+  .database-button {
+    background-color: #C55B28;
     border: none;
-    border-radius: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #28a745;
-    transition: all 0.3s ease;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 24px;
     cursor: pointer;
   }
 
-  .custom-btn:hover {
-    background-color: #218838;
+  .database-button:hover {
+    background-color: #3cba54;
   }
 </style>
 
@@ -88,10 +100,9 @@
 </form>
 <hr class="heavy-rule" />
 
-<div class="row-fluid mt-4">
-  <div class="col">
-    <button class="custom-btn" onClick="window.location.href='/dataverse/febr'">Explorar</button>
-  </div>
+<div class="database-container">
+  <p class="database-text">Conheça nossa base de dados:</p>
+  <button class="database-button" onclick="window.location.href='/repositorio-de-dados'">Repositório de Dados</button>
 </div>
 
 <hr class="heavy-rule" />
