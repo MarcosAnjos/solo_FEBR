@@ -58,8 +58,9 @@
 
 <form class="search-form">
   <input type="text" placeholder="Procure dados da sua pesquisa">
-  <button type="submit" class="explore-btn" onClick="window.location='/dataverse/febr?q='">Explorar</button>
-  <button class="btn btn-default" id="btnDataverseSearch" type="submit"
+
+  <button id="btnDataverseSearch" type="submit"
     onclick="window.location = '/dataverse/febr?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i
-      class="glyphicon glyphicon-search"></i></button>
+      class="glyphicon glyphicon-search"></i>
+  </button>
 </form>
