@@ -5,7 +5,9 @@
       produzido.</p>
   </div>
 </div>
-
+<hr class="heavy-rule" />
+<br>
+<br>
 <form class="form mt-4">
   <div class="input-group input-group-lg">
     <input type="text" class="form-control" id="inputDataverseSearch"
@@ -28,38 +30,4 @@
 </div>
 <br>
 <br>
-
 <hr class="heavy-rule" />
-
-<!-- SEARCH + BROWSE + RECENT -->
-<div class="row hmpg-browse-block">
-
-  <!-- SEARCH -->
-  <!-- 
-            NOTE: The alias of the root dataverse will need to be configured in this URL 
-            -->
-
-  <!-- BROWSE SUBJECT -->
-  <div id="browseBySubject" class="col-xs-12">
-    <p class="text-muted margin-bottom">Browse by subject</p>
-    <div class="row margin-bottom">
-      <!-- SUBJECTS -->
-      <div id="dataversesBySubject" class="col-xs-12"> </div>
-
-      <!-- VIEW ALL -->
-      <!-- 
-                    NOTE: The alias of the root dataverse will need to be configured in this URL 
-                    -->
-      <div class="col-xs-12 margin-top">
-        <p class="browse-subjects small text-muted"><a href="/dataverse/febr">ALL DATA</a> <span
-            class="glyphicon glyphicon-chevron-right"></span></p>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-  getvals(url_metrics + 'dataverses', 'ID_dataverse', 'Total');
-  getvals(url_metrics + 'datasets', 'ID_datasets', 'Total');
-  getvals(url_metrics + 'files', 'ID_files', 'Total');
-  getvals(url_metrics + 'downloads', 'ID_projetos', 'Total');
-</script>
