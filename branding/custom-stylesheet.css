@@ -1,83 +1,4 @@
-/* .navbar-fixed-top {
-  top: 60px;
-}
-.headerCustom {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  background: #a06046;
-  min-height: 70px;
-}
-.headerCustom img {
-  margin-right: 1em;
-  margin-top: 0.5em;
-}
-#dataverseHeader {
-  background: url("/dvn/img/header-lattes-data2.jpg") no-repeat right top !important;
-  margin-top: 10rem;
-  webkit-box-shadow: 0px 0px 17px -7px #000000; 
-	box-shadow: 0px 0px 17px -7px #000000;
-} */
-
-/* div#content {
-  -webkit-box-shadow: 0px 0px 17px -7px #000000; 
-	box-shadow: 0px 0px 17px -7px #000000;
-} */
-/* 
-#login-container{
-    
-    margin-top: 5em;
-}
-.mt-4 {
-  margin-top: 4rem;
-}
-.btn-outline-success {
-  background: none;
-  color: #007bff;
-  border-color: #007bff;
-} */
-
-/* .dataverseHeaderLogo {
-  padding: 3rem 0 0 2rem;
-  width: 236px;
-  height: 49px;
-  max-width: 50%;
-  background: none !important;
-}
-.dataverseHeaderDataverseName H1 {
-  display: none;
-}
-.poweredbylogo {
-  color: #fff;
-}
-#dataverseHeader .dataverseHeaderCell {
-  display: block;
-} */
-/* #dataverseHeader .dataverseHeaderCell.dataverseHeaderLogo img {
-  max-width: none;
-  max-height: none;
-}
-.deposite  {
-    padding-top: 15px;
-}
-.deposite a {
-    color: #fff;
-    margin-top: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    
-} */
-/* 
-.deposite i {
-    margin-right: 5px;
-}
-
-.btn {
-    margin-bottom: 5px; 
-} */
-
-/*
-Estilos footer
+/* Estilos footer */
 */
 #dvfooter {
   background: #a7afbd;
@@ -119,7 +40,9 @@ Estilos footer
 .custom-footer i {
   color: #fff;
   margin-left: 10px
+
 }
+
 /*
 Estilos da lista de resultado
 */
@@ -179,10 +102,4 @@ Chamada
 } */
 
 
-/* Footer */
-.custom-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
+
