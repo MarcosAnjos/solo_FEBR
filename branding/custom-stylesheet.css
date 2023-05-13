@@ -1,5 +1,3 @@
-/* Estilos footer */
-
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +27,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 1.0em;
+  color: #C55B28;
 }
 .custom-footer li {
   padding-bottom: 0.4em;
@@ -47,6 +46,4 @@
   margin-left: 10px
 
 }
-
-/* HOME PAGE */
 
