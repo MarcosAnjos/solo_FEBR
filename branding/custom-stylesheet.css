@@ -47,11 +47,15 @@
 
 }
 
-#header-logo img {
+/* .dataverseHeaderLogo {
   max-width: 100%;
   height: auto;
-}
+} */
 
+#dataverseHeader {
+  background: url(./header-3.png) no-repeat right top !important;
+  margin-top: 10rem;
+}
 /* ------------------- */
 
 @media (max-width: 576px) {
