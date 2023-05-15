@@ -53,7 +53,7 @@
 } */
 
 #dataverseHeader {
-  background: url("https://github.com/MarcosAnjos/solo_FEBR/blob/main/branding/header-3.png") no-repeat right top !important;
+  background: url(header-3.png) no-repeat right top;
   margin-top: 0rem;
 }
 /* ------------------- */
