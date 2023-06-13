@@ -64,6 +64,21 @@
     display: none;
   }
 
+
+  .custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ajuste a altura conforme necessário */
+  }
+
+  .custom-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
   /* Media queries for responsive design */
   @media only screen and (max-width: 768px) {
     div.jumbotron {
@@ -85,13 +100,10 @@
   }
 </style>
 
-
 <div class="jumbotron">
-  <p>SOILDATA é o maior repositório de dados de solo brasileiro! Aqui você encontra dados de
-    diversas propriedades do solo de inúmeros locais do país. Você também pode publicar dados do solo que você tenha
-    produzido</p>
-  <p>
+  <img src="logo_3.png" alt="LOGO">
 </div>
+
 
 <form class="search-form">
   <input type="text" id="inputDataverseSearch"
@@ -102,5 +114,10 @@
       class="glyphicon glyphicon-search"></i> Explorar</button>
   <br>
 </form>
-<br>
-<br>
+
+<div class="jumbotron">
+  <p>SOILDATA é o maior repositório de dados de solo brasileiro! Aqui você encontra dados de
+    diversas propriedades do solo de inúmeros locais do país. Você também pode publicar dados do solo que você tenha
+    produzido</p>
+  <p>
+</div>
