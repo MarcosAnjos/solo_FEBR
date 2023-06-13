@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu buscador personalizado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Procure dados para sua pesquisa</h1>
+    <form action="/dataverse/soildata?q=" method="get">
+      <input type="text" name="q" placeholder="Digite sua pesquisa" autofocus>
+      <button id="btnDataverseSearch" type="submit"
+        onclick="window.location = '/dataverse/soildata?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i
+          class="glyphicon glyphicon-search"></i> Explorar</button>
+    </form>
+  </div>
+</body>
+
+</html>
