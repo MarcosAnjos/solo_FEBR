@@ -119,24 +119,24 @@
     }
   }
 </style>
+<!--  -->
 
-<div class="jumbotron">
-  <img src=" /logos/navbar/header-3.png" alt="Logo do Repositório de dados SoilData">
-</div>
+<link rel="apple-touch-icon" sizes="180x180" href="./soildata-180x180.png" />
+<!-- <link rel="icon" type="image/png" sizes="16x16" href="/javax.faces.resource/images/fav/favicon-16x16.png.xhtml" /> -->
+<!-- <link rel="icon" type="image/png" sizes="32x32" href="/javax.faces.resource/images/fav/favicon-32x32.png.xhtml" /> -->
 
+
+<div class="jumbotron"><img src=" /logos/navbar/header-3.png" alt="Logo do Repositório de dados SoilData"></div>
 <div class="jumbotron">
-  <p><span>SoilData</span> é o maior repositório de dados de solo brasileiro! Aqui você encontra dados de
-    diversas propriedades do solo de inúmeros locais do país. Você também pode publicar dados do solo que você tenha
-    produzido</p>
+  <p><span>SoilData</span> é a vitrine do trabalho de campo e laboratório de quem estuda o solo brasileiro! Nele, você
+    pode <strong>publicar dados</strong> que tenha produzido em seus projetos. Você também pode <strong>encontrar
+      dados</strong>para utilizar em suas
+    atividades de ensino, pesquisa e, inclusive, comerciais.
+  </p>
   <p>
 </div>
-
-<form class="search-form">
-  <input type="text" id="inputDataverseSearch"
+<form class="search-form"><input type="text" id="inputDataverseSearch"
     onkeydown="if (event.keyCode == 13) document.getElementById('btnDataverseSearch').click();"
-    placeholder="Procure dados para sua pesquisa">
-  <button id="btnDataverseSearch" type="submit"
+    placeholder="Procure dados para sua pesquisa"><button id="btnDataverseSearch" type="submit"
     onclick="window.location = '/dataverse/soildata?q=' + document.getElementById('inputDataverseSearch').value;return false;"><i
-      class="glyphicon glyphicon-search"></i> Explorar</button>
-  <br>
-</form>
+      class="glyphicon glyphicon-search"></i>Explorar</button><br></form>
